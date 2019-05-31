@@ -1,7 +1,8 @@
 pipeline {
     agent {
         node {
-            label 'ubuntuVM'
+            label 'DT00405'
+			//label 'ubuntuVM'
 			}
     }
     stages {
